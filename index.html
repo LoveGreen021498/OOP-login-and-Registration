@@ -1,0 +1,40 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OOP PHP - Login and Register</title>
+</head>
+<body>
+    <h1>Welcome</h1>
+
+    <h2>Log in</h2>
+    <form action="index.php" method="POST">
+        <label for="user_name_email">Username or E-mail Address:</label>
+        <input type="text" name="user_name_email" id="user_name_email" required>
+
+        <label for="user_password_log_in">Password:</label>
+        <input type="password" name="user_password" id="user_password_log_in" required>
+
+        <input type="submit" name="log_in" value="Log in">
+    </form>
+
+    <!-- Register -->
+    <h2>Register</h2>
+    <form action="index.php" method="POST">
+        <label for="user_name">Username:</label>
+        <input type="text" name="user_name" id="user_name" required>
+
+        <label for="user_email">E-mail Address:</label>
+        <input type="email" name="user_email" id="user_email" required>
+
+        <label for="user_password">Password:</label>
+        <input type="password" name="user_password" id="user_password" required>
+
+        <input type="submit" name="register" value="Register">
+    </form>
+</body>
+</html>
